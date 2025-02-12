@@ -25,5 +25,6 @@ after you done Open and Run the project. Hibernatee will create tables for you
     6.commons-lang3
 ### endpoint
 we have 3 endpoint 
-1. POST | localhost:8080/generate this is used to transform a long url into a short link. And use post for posting to the tables
-2. GET | 
+1. POST | `localhost:8080/generate` this is used to transform a long url into a short link. And use post for posting to the tables
+2. GET | `localhost:8080/arsene.com/{your_shortlink}` this is used to redirect to the actual/original link l. And uses the Get method
+3. DELETE | `localhost:8080/delete/{your_shortlink}` this us used to delete the expired, or unwanted links from storage. And uses Delete method
