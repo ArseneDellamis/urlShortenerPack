@@ -23,4 +23,7 @@ after you done Open and Run the project. Hibernatee will create tables for you
     4. lombok
     5. postgres
     6.commons-lang3
-
+### endpoint
+we have 3 endpoint 
+1. POST | localhost:8080/generate this is used to transform a long url into a short link. And use post for posting to the tables
+2. GET | 
