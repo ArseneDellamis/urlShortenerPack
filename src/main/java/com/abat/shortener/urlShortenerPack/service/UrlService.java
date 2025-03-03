@@ -7,9 +7,11 @@ import org.springframework.stereotype.Service;
 @Service
 public interface UrlService {
 
-    public Url generateShortLink(UrlDto urlDto);
-    public Url persistShorLink(Url url);
-    public Url getEncodedUrl(String url);
-    public void deleteShortLink(Url url);
+     Url generateShortLink(UrlDto urlDto);
+     Url persistShorLink(Url url);
+     Url getEncodedUrl(String url);
+     void deleteShortLink(Url url);
+     void deleteAllExpiredShortLinks();
+
 
 }
